@@ -1,0 +1,199 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-content h2 {
+        font-size: 38px;
+    }
+    .banner-area {
+        height: 50vh;
+    }
+    /* shop */
+    .shop-body {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .single-shop-1 {
+        margin-bottom: 30px;
+    }
+    .single-shop-2 {
+        margin-bottom: 30px;
+    }
+    /* provide */
+    .provide-body {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .products-body {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 0;
+    }
+    .provider-img img {
+        margin-top: 0;
+    }
+    .products-btn {
+        width: 32%;
+    }
+    .product-img img {
+        width: 73%;
+    }
+    .product-content h2 {
+        font-size: 16px;
+    }
+    .flavor-body {
+        background: none;
+    }
+    .single-flavar {
+        display: block;
+    }
+    .opening-body {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0;
+    }
+    .opening-time {
+        margin-top: 0;
+    }
+    .opening {
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .contact-area {
+        height: 60vh;
+    }
+    .contact-form {
+        display: inline;
+    }
+    .name {
+        margin-bottom: 25px;
+    }
+    .bg {
+        height: 50vh;
+    }
+    .cl-1 {
+        height: 50vh;
+    }
+    .footer-section {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-content h2 {
+        font-size: 22px;
+    }
+    .banner-content p {
+        font-size: 12px;
+    }
+    .banner-area {
+        height: 50vh;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .section-title p {
+        font-size: 12px;
+    }
+    .shop-body {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single-shop-1 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .single-shop-2 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .single-shop-3 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .single-shop-4 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .title h2 {
+        font-size: 35px;
+    }
+    .title p {
+        font-size: 12px;
+    }
+    .provide-area {
+        margin-bottom: 50px;
+    }
+    .tabs {
+        display: block;
+    }
+    .products-body {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 55px;
+    }
+    .products-btn {
+        width: 40%;
+    }
+    .products-area {
+        margin-bottom: 50px;
+    }
+    .single-flavar {
+        display: block;
+    }
+    .flavor-body {
+        background: none;
+    }
+    .flavar-content.num-2 {
+        margin-left: 0;
+    }
+    .flavar-content.num-1 {
+        margin-right: 0;
+    }
+    .opening-body {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .opening-img {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .opening {
+        margin-left: 0;
+    }
+    .single-img {
+        margin: 0 auto;
+    }
+    .name {
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    .btn.submit-btn {
+        margin: 10px;
+    }
+    .cl-2 {
+        width: 320px;
+    }
+    .cl-2 h2 {
+        font-size: 25px;
+    }
+    .cl-2 p {
+        font-size: 14px;
+    }
+    .cl-1 {
+        height: 55vh;
+    }
+    .bg {
+        height: 55vh;
+    }
+    .footer-section {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-area {
+        height: 90vh;
+    }
+}
